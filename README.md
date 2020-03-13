@@ -6,7 +6,7 @@ Add a directory in path: `export PATH="$/some/directory:$PATH"`
 
 # Scripts
 ## randomplay
-Randomly play a video/audio in a directory by searching recursively
+Randomly play a video/audio in a directory by searching recursively. (I use this to randomly an episode of the office)
 
 - `base_dir` is the uppermost directory in which files are searched recursively
 - In `line 8` and `line 17`, edit `$(find "$base_dir" -name "*.extension1" -o -name "*.extension2"  -o -name "*.extension3" | xargs -d '\n' realpath)`. `-o` is or so there can be any number of file extensions. I have used `mp4`, `mkv` and `avi` to play videos.
@@ -17,7 +17,8 @@ I keep forgetting how to extract different packaging formats on linux.
 
 `helpex <format>` will print how to do it.
 
-### Supports:
+
+Supports:
 - bz2
 - tar
 - gz
@@ -26,3 +27,7 @@ I keep forgetting how to extract different packaging formats on linux.
 - targz
 - 7z
 - tarbz2
+
+
+# Kahzu Kamakazes Gang
+![](https://i.imgur.com/dpzFCdf.jpg)
